@@ -9,8 +9,7 @@ function updateDriverWithKeyAndValue(driver, key, value) {
 }
 
 function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
-name: 'Sam' 
-address: '11 Broadway'
+driver.address = '11 Broadway'
 
 }
 
