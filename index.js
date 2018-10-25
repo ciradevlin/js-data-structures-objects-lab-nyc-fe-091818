@@ -17,5 +17,6 @@ return driver
 
 function deleteFromDriverByKey(driver, key) {
   const newDrvier = {...driver}
-  remove.name
+  remove.name 
+  return newDriver
 }
