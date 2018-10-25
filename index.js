@@ -21,4 +21,8 @@ delete newDriver.name
 return newDriver
 }
 
-function 
+function destructivelyDeleteFromDriverByKey(driver, key) {
+  delete driver.name
+  return driver
+
+}
