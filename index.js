@@ -16,7 +16,5 @@ return driver
 }
 
 function deleteFromDriverByKey(driver, key) {
-  let deleteFromDriverByKey
-  delete newDriver.name
-  return newDriver
+let newdriver = deleteFromDriverByKey(driver, 'name')
 }
